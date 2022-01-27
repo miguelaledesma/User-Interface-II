@@ -150,7 +150,34 @@ footer img:hover{
     font-size:1.2em
 }
 
+@media (max-width: 800px){
+    .bottomRow{
+        flex-wrap: wrap;
+    }
+    .bottomRow img{
+        width: 40% ;
+        margin: 4% 0;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .links a{
+        width: 40%;
+        margin: 1% 0;
+    }
+
+    h1{
+        font-size: 40px;
+        
+    }
+}
+
+@media (max-width: 500px){
+
+}
 
 
 
